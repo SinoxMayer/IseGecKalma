@@ -57,6 +57,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: GunIdle_b
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: Shoot_b
     m_Type: 4
     m_DefaultFloat: 0
@@ -3324,7 +3330,7 @@ AnimatorStateTransition:
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110235036}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -3539,7 +3545,7 @@ AnimatorStateTransition:
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110231410}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -4219,7 +4225,7 @@ AnimatorStateTransition:
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110266762}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -8538,7 +8544,7 @@ AnimatorStateMachine:
     m_Position: {x: 24, y: 84, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110231410}
-    m_Position: {x: -132, y: -240, z: 0}
+    m_Position: {x: -144, y: -204, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110235036}
     m_Position: {x: 180, y: -240, z: 0}

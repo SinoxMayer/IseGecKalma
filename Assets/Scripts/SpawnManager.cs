@@ -8,6 +8,8 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] rockPrefab;
     public GameObject[] treePrefab;
     public GameObject[] smallThingsPrefab;
+    public GameObject[] ammosPrefabs;
+
 
     private Vector3 spawnPos = new Vector3(25, 0, 0);
     private Vector3 spawntreePos = new Vector3(25, 0, -5);
