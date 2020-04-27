@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Ammo
   - Ammo2
+  - Ammo3
   layers:
   - Default
   - TransparentFX
